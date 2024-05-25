@@ -11,7 +11,7 @@ sudo apt install docker-ce
 cd ~
 git clone https://github.com/QuilibriumNetwork/ceremonyclient.git
 cd ~/ceremonyclient
-docker build --build-arg GIT_COMMIT=$(git log -1 --format=%h) -t quilibrium -t quilibrium:1.4.17 .
+docker build --build-arg GIT_COMMIT=$(git log -1 --format=%h) -t quilibrium -t quilibrium:1.4.18 .
 
 sudo ufw enable
 sudo ufw allow 22
